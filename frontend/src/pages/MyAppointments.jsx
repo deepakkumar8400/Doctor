@@ -115,8 +115,6 @@ const MyAppointments = () => {
         }
     }
 
-
-
     useEffect(() => {
         if (token) {
             getUserAppointments()

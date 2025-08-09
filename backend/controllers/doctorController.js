@@ -173,8 +173,6 @@ const doctorDashboard = async (req, res) => {
             }
         })
 
-
-
         const dashData = {
             earnings,
             appointments: appointments.length,
